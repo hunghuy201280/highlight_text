@@ -58,7 +58,7 @@ class TextHighlight extends StatelessWidget {
   final int? maxLines;
   final Locale? locale;
   final StrutStyle? strutStyle;
-
+  final EditableTextContextMenuBuilder? contextMenuBuilder;
   final Map<String, List<String>> _originalWords = <String, List<String>>{};
 
   TextHighlight({
@@ -73,6 +73,7 @@ class TextHighlight extends StatelessWidget {
     this.maxLines,
     this.locale,
     this.strutStyle,
+    this.contextMenuBuilder,
     this.matchCase = false,
     this.binding = HighlightBinding.all,
     this.spanAlignment = PlaceholderAlignment.middle,
@@ -82,15 +83,26 @@ class TextHighlight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> _textWords = _bind();
-
-    return SelectableText.rich(
-      _buildSpan(_textWords),
-      maxLines: maxLines,
-      strutStyle: strutStyle,
-      textAlign: textAlign,
-      textDirection: textDirection,
-      textScaleFactor: textScaleFactor,
-    );
+    if (contextMenuBuilder != null) {
+      return SelectableText.rich(
+        _buildSpan(_textWords),
+        maxLines: maxLines,
+        strutStyle: strutStyle,
+        textAlign: textAlign,
+        textDirection: textDirection,
+        textScaleFactor: textScaleFactor,
+        contextMenuBuilder: contextMenuBuilder,
+      );
+    } else {
+      return SelectableText.rich(
+        _buildSpan(_textWords),
+        maxLines: maxLines,
+        strutStyle: strutStyle,
+        textAlign: textAlign,
+        textDirection: textDirection,
+        textScaleFactor: textScaleFactor,
+      );
+    }
   }
 
   String _multipleBinding() {

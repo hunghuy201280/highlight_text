@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a68c89-de80-4008-aa34-4e27b2078a8a" name="Default Changelist" comment="" />
+    <list default="true" id="82a68c89-de80-4008-aa34-4e27b2078a8a" name="Default Changelist" comment="update - add custom context menu support" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,16 +13,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/lib/highlight_text.dart" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/fvm/versions/stable/packages/flutter/lib/src/material/selectable_text.dart" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1q4JXr2aPeMTwSl7mRK5hJOSJyY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -29,6 +45,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,8 +92,33 @@
       <option name="project" value="LOCAL" />
       <updated>1634560670218</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update - add selectable text">
+      <created>1681963289941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681963289941</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update - add custom context menu support">
+      <created>1681963650773</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681963650773</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="renamed enableCaseSensitive to matchCase and fix it" />
@@ -84,24 +126,8 @@
     <MESSAGE value="matchCase keep the original word" />
     <MESSAGE value="version upgrade and matchCase fixed" />
     <MESSAGE value="matchCase fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="matchCase fix" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="424" y="3" key="CommitChangelistDialog2" timestamp="1634560668771">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="424" y="3" key="CommitChangelistDialog2/1920.0.1536.816/0.0.1536.816@0.0.1536.816" timestamp="1634560668771" />
-    <state x="548" y="163" key="FileChooserDialogImpl" timestamp="1634236921980">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="548" y="163" key="FileChooserDialogImpl/1920.0.1536.816/0.0.1536.816@0.0.1536.816" timestamp="1634236921980" />
-    <state x="277" y="51" key="SettingsEditor" timestamp="1632753710508">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="277" y="51" key="SettingsEditor/1920.0.1536.816/0.0.1536.816@0.0.1536.816" timestamp="1632753710508" />
-    <state x="93" y="93" width="1350" height="630" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1634156630854">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="93" y="93" width="1350" height="630" key="com.android.tools.idea.avdmanager.AvdListDialog/1920.0.1536.816/0.0.1536.816@0.0.1536.816" timestamp="1634156630854" />
+    <MESSAGE value="update - add selectable text" />
+    <MESSAGE value="update - add custom context menu support" />
+    <option name="LAST_COMMIT_MESSAGE" value="update - add custom context menu support" />
   </component>
 </project>
