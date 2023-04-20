@@ -83,12 +83,9 @@ class TextHighlight extends StatelessWidget {
   Widget build(BuildContext context) {
     List<String> _textWords = _bind();
 
-    return RichText(
-      text: _buildSpan(_textWords),
-      locale: locale,
+    return SelectableText.rich(
+      _buildSpan(_textWords),
       maxLines: maxLines,
-      overflow: overflow,
-      softWrap: softWrap,
       strutStyle: strutStyle,
       textAlign: textAlign,
       textDirection: textDirection,
